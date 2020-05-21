@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IngresoEgresoComponent } from './ingreso-egreso.component';
+import { IngresosEgresosComponent } from './ingresos-egresos.component';
 
-describe('IngresoEgresoComponent', () => {
-  let component: IngresoEgresoComponent;
-  let fixture: ComponentFixture<IngresoEgresoComponent>;
+describe('IngresosEgresosComponent', () => {
+  let component: IngresosEgresosComponent;
+  let fixture: ComponentFixture<IngresosEgresosComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ IngresoEgresoComponent ]
+      declarations: [ IngresosEgresosComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(IngresoEgresoComponent);
+    fixture = TestBed.createComponent(IngresosEgresosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
